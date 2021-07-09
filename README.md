@@ -1,2 +1,0 @@
-# rachelleabernathy.github.io
-Capstone
