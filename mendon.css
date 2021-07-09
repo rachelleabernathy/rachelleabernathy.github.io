@@ -1,0 +1,73 @@
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #F2E8DA; 
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: #56715E; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #3B080D; /* Grey background color */
+    color: #F2E8DA; /* Black text color */
+  }
+
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #F2E8DA; /*background */
+    color: #56715E; /* text color */
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+  }
+
+/*columns */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #F2E8DA; /* Grey background color */
+    padding: 20px; /* Some padding */
+    color: #56715E; /* text color */
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%; /* Set the width of the main content */
+    background-color:#F2E8DA; /* White background color */
+    padding: 20px; /* Some padding */
+    color: #56715E; /* text color */
+  }
+
+  /* footer */
+  .footer {
+    padding: 20px; /* Some padding */
+    text-align: centerleft; /* Center text*/
+    background:#F2E8DA; /* Grey background */
+  }
